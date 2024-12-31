@@ -50,7 +50,7 @@ export default function Section() {
         {products.map((items, index) => (
           <div
             key={index}
-            className="h-fit border sm:w-[300px] w-full rounded-md"
+            className=" shadow-md drop-shadow-sm h-fit border sm:w-[300px] w-full rounded-md"
           >
             <div className="border-b-2">
               <Image
