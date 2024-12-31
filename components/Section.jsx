@@ -18,34 +18,34 @@ export default function Section() {
       livraison: "Tunis, Ariana,Sousse",
     },
     {
-      productName: "Watch",
-      Img: "/montre-intelligente-isolé.webp",
+      productName: "Dumbles",
+      Img: "/d.webp",
       prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
+    {
+      productName: "Cassarouna",
+      Img: "/dutch-oven.webp",
+      prix: 50,
       livraison: "Tunis, sfax, Sousse",
     },
     {
       productName: "Watch",
       Img: "/montre-intelligente-isolé.webp",
-      prix: 15,
+      prix: 70,
       livraison: "Tunis, sfax, Sousse",
     },
     {
       productName: "Watch",
       Img: "/montre-intelligente-isolé.webp",
-      prix: 15,
-      livraison: "Tunis, sfax, Sousse",
-    },
-    {
-      productName: "Watch",
-      Img: "/montre-intelligente-isolé.webp",
-      prix: 15,
+      prix: 80,
       livraison: "Tunis, sfax, Sousse",
     },
   ]);
 
   return (
     <section className="sm:p-10 p-2">
-      <div className="w-full min-h-svh border rounded-md flex flex-wrap gap-6 p-5 ">
+      <div className="w-full min-h-svh border rounded-md flex flex-wrap gap-6 p-5 justify-center ">
         {/*card */}
         {products.map((items, index) => (
           <div
@@ -56,8 +56,8 @@ export default function Section() {
               <Image
                 className="h-[300px] rounded-md"
                 src={items.Img}
-                width={1090}
-                height={1220}
+                width={1920}
+                height={1820}
                 alt="Image de produit"
               />
             </div>
