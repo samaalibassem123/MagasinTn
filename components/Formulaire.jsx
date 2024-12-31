@@ -55,7 +55,7 @@ export default function Formulaire({ prix }) {
         />
       </div>
 
-      <div className=" w-full flex justify-between items-center border select-none">
+      <div className=" w-full flex justify-between items-center border select-none rounded-md">
         <span
           onClick={() => setqt(qt + 1)}
           className=" p-5 bg-black text-white cursor-pointer rounded-md hover:bg-black/50 transition-all"
