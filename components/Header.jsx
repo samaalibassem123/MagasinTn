@@ -5,7 +5,7 @@ import { Cart } from "./Cart";
 
 export default function Header() {
   return (
-    <div className=" select-none     flex items-center justify-between p-6 drop-shadow-sm shadow-md backdrop-blur-md">
+    <div className=" sticky top-0 select-none     flex items-center justify-between p-6 drop-shadow-sm shadow-md backdrop-blur-md">
       {/*MENU FOR SMALL DEVICES */}
       <SidebarMenu />
       {/*MENU FOR BIG DEVICES */}

@@ -48,7 +48,7 @@ export function Cart() {
                   }
                   width={50}
                   height={50}
-                  alt="imge de produit"
+                  alt="image de produit"
                 />
               </div>
               {/*INFORMATION FOR PRODUCT*/}
