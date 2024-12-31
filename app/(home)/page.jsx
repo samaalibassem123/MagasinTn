@@ -43,7 +43,7 @@ export default function Home() {
                 <span className=" underline">{items.productName}</span>
                 <span>Prix : {items.prix} DT</span>
                 <span className="text-sm">livraison: {items.livraison}</span>
-                <button className=" font-bold text-lg p-2 rounded-sm bg-red-400">
+                <button className=" font-bold text-lg p-2 rounded-sm bg-red-400 text-white">
                   Acheter
                 </button>
               </div>
