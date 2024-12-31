@@ -1,6 +1,24 @@
+"use client";
 import React from "react";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function Section() {
+  const [products, setProducts] = useState([
+    {
+      productName: "Watch",
+      Img: "/montre-intelligente-isolé.webp",
+      prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
+    {
+      productName: "Mixeur",
+      Img: "/Kitchenaid_Mixeur_plongeant_5KHBV83EER_Rouge_empire_Frontal.webp",
+      prix: 20,
+      livraison: "Tunis, Ariana,Sousse",
+    },
+  ]);
+
   return (
     <section className="sm:p-10 p-2">
       <div className="w-full min-h-svh border rounded-md flex flex-wrap gap-6 p-5 ">
