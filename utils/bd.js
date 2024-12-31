@@ -13,6 +13,7 @@ export const products = [
     Img: "/Kitchenaid_Mixeur_plongeant_5KHBV83EER_Rouge_empire_Frontal.webp",
     prix: 20,
     livraison: "Tunis, Ariana,Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
   {
     id: 3,
@@ -20,6 +21,7 @@ export const products = [
     Img: "/d.webp",
     prix: 15,
     livraison: "Tunis, sfax, Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
   {
     id: 4,
@@ -27,6 +29,7 @@ export const products = [
     Img: "/dutch-oven.webp",
     prix: 50,
     livraison: "Tunis, sfax, Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
   {
     id: 5,
@@ -34,6 +37,7 @@ export const products = [
     Img: "/montre-intelligente-isolé.webp",
     prix: 70,
     livraison: "Tunis, sfax, Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
   {
     id: 6,
@@ -41,5 +45,6 @@ export const products = [
     Img: "/montre-intelligente-isolé.webp",
     prix: 80,
     livraison: "Tunis, sfax, Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
 ];
