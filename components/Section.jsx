@@ -18,7 +18,7 @@ export default function Section() {
             key={index}
             className=" shadow-md drop-shadow-sm  h-fit border sm:w-[300px] w-full rounded-md"
           >
-            <div className="border-b-2">
+            <div>
               <Image
                 className="h-[300px] rounded-md"
                 src={items.Img}
