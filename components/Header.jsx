@@ -29,7 +29,9 @@ export default function Header() {
       </h1>
 
       {/*CART*/}
-      <Cart />
+      <div className=" animate-pulse flex items-center justify-center">
+        <Cart />
+      </div>
     </div>
   );
 }
