@@ -5,6 +5,7 @@ export const products = [
     Img: "/montre-intelligente-isolé.webp",
     prix: 15,
     livraison: "Tunis, sfax, Sousse",
+    Desc: "La montre connectée est un accessoire élégant et polyvalent, conçu pour s'adapter à votre style de vie moderne. Alliant technologie de pointe et design raffiné, elle offre un large éventail de fonctionnalités pratiques pour vous accompagner au quotidien.",
   },
   {
     id: 2,
