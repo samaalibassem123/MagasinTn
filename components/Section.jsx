@@ -17,6 +17,30 @@ export default function Section() {
       prix: 20,
       livraison: "Tunis, Ariana,Sousse",
     },
+    {
+      productName: "Watch",
+      Img: "/montre-intelligente-isolé.webp",
+      prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
+    {
+      productName: "Watch",
+      Img: "/montre-intelligente-isolé.webp",
+      prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
+    {
+      productName: "Watch",
+      Img: "/montre-intelligente-isolé.webp",
+      prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
+    {
+      productName: "Watch",
+      Img: "/montre-intelligente-isolé.webp",
+      prix: 15,
+      livraison: "Tunis, sfax, Sousse",
+    },
   ]);
 
   return (
@@ -42,7 +66,7 @@ export default function Section() {
               <span className=" underline">{items.productName}</span>
               <span>Prix : {items.prix} DT</span>
               <span className="text-sm">livraison: {items.livraison}</span>
-              <button className=" font-bold text-lg p-2 rounded-sm bg-red-400 text-white">
+              <button className=" font-bold text-lg p-2 rounded-sm bg-red-400 text-white hover:bg-red-400/60 transition-all">
                 Acheter
               </button>
             </div>
