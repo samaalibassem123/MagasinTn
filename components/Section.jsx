@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-
+import { ShoppingCart } from "lucide-react";
 export default function Section() {
   const [products, setProducts] = useState([
     {
@@ -68,6 +68,9 @@ export default function Section() {
               <span className="text-sm">livraison: {items.livraison}</span>
               <button className=" font-bold text-lg p-2 rounded-sm bg-red-400 text-white hover:bg-red-400/60 transition-all">
                 Acheter
+              </button>
+              <button className=" flex  items-center gap-2 justify-center border p-2">
+                <ShoppingCart /> Ajouter au panier
               </button>
             </div>
           </div>
